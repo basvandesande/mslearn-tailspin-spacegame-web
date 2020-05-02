@@ -42,8 +42,8 @@ steps:
   parameters: 
     buildConfiguration: 'Debug'
 
--template: templates/build.yml
- parameters: 
+template: templates/build.yml
+parameters: 
    buildConfigudation: 'Release'
 
 - task: PublishBuildArtifacts@1
